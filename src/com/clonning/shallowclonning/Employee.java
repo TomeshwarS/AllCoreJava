@@ -64,7 +64,7 @@ public class Employee extends Object implements Cloneable {
 
 		Employee e2 = (Employee) e1.clone();
 		e2.getAdreess().setPa("PPPPPPPPPPPPPPPPPPPPPPPPPP");
-		e2.setId(100000);
+		e2.setId(100000 );
 		System.out.println("e1" + e1   + "add"+e1.adreess);
 		System.out.println("e2" + e2+ "add"+e2.adreess);
 
